@@ -1,0 +1,284 @@
+﻿body, #aspnetForm
+{
+    font-family: Verdana, Tahoma, Arial;
+    font-size: small;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: white;
+}
+.hidden
+{
+    display: none;
+}
+h1
+{
+    font-size: medium;
+    color: #2a68a1;
+    margin: 1.2em 0 1.6em 0;
+}
+h2
+{
+    font-size: small;
+    color: #2a68a1;
+    margin: 2em 0 0.2em 0;
+}
+h3
+{
+    font-size: small;
+    color: black;
+}
+p
+{
+    margin: 2em 0 2em 0;
+}
+hr
+{
+    height: 0;
+    border: none;
+    border-top: solid 1px #99ccff;
+}
+a
+{
+    color: #5088c0;
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+#page
+{
+}
+#header
+{
+    background-image: url(Images/logo_bkg.gif);
+    background-repeat: repeat-x;
+}
+#header_logo
+{
+    background-image: url(Images/logo.jpg);
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+#header_line
+{
+    background-image: url(Images/line.gif);
+    background-repeat: repeat-x;
+    height: 15px;
+}
+#menu
+{
+    position: absolute;
+    top: 165px;
+    left: 0;
+    margin-top: 1em;
+    width: 13em;
+}
+#menu a
+{
+    color: white;
+    text-decoration: none;
+}
+#menu a:hover
+{
+    text-decoration: underline;
+    color: yellow;
+}
+#menu ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #2b6aa2;
+}
+#menu ul li
+{
+    background: url(Images/menu_bkg2.gif) repeat-x left bottom;
+    width: 100%;
+    min-height: 30px;
+}
+#menu ul li div
+{
+    background: url(Images/menu_bkg.gif) repeat-x left top;
+    padding: 0.5em 0 0.5em 0.6em;
+}
+#menu ul li a.selected
+{
+    font-weight: bold;
+    color: yellow;
+}
+#login_controls
+{
+    padding-top: 0.5em;
+    text-align: center;
+    font-size: 0.8em;
+}
+#login_controls a, #login_controls a:hover
+{
+    display: block;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: black;
+}
+#login_controls .hidden
+{
+    display: none;
+}
+#toplist
+{
+    padding-top: 0.5em;
+    text-align: center;
+}
+#content_wrapper
+{
+    padding: 1em 3em 2em 15em;
+    background: #d6e6f6 url(Images/page_bkg.gif) repeat-x left top;
+    min-height: 575px;
+    height: auto !important;
+    height: 575px;
+}
+#content
+{
+    border: solid 1px #99ccff;
+    background-color: White;
+    padding: 0 1em 1em 1em;
+    text-align: justify;
+    height: 1%;
+}
+#footer
+{
+    padding: 1em 0 1em 0;
+    text-align: center;
+    font-size: 0.8em;
+    border-top: solid 1px #99ccff;
+}
+.page_edit_console
+{
+    text-align: center;
+    background-color: #2b6aa2;
+    color: yellow;
+    height: 25px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 5px 0 0 0;
+}
+.top_bar_inv
+{
+    border-top: none;
+    border-bottom: none;
+}
+.page_edit_console a
+{
+    padding-left: 8px;
+    padding-right: 8px;
+    color: yellow;
+    text-decoration: none;
+    border: none;
+}
+.page_edit_console a:hover
+{
+    color: yellow;
+    text-decoration: underline;
+}
+.person_console, .person_console a, .person_console a:hover
+{
+    color: #b9daff;
+    border-bottom: none;
+}
+.page_padding_map
+{
+    clear: both;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    text-align: center;
+}
+.page_padding_map .selected
+{
+    padding: 0 4px 0 4px;
+    font-weight: bold;
+    color: black;
+}
+.page_padding_map a
+{
+    font-weight: bold;
+    padding: 0 4px 0 4px;
+    color: #b9daff;
+    text-decoration: none;
+    border: none;
+}
+.page_padding_map a:hover
+{
+    text-decoration: underline;
+}
+.tree_list h2, .tree_list p
+{
+    margin: 0;
+    padding: 0;
+}
+.tree_list h2
+{
+    margin: 2em 0 0.2em 0;
+}
+.tree_list p
+{
+    margin-left: 0.8em;
+}
+.image_gallery
+{
+}
+.image_gallery .navigation_container
+{
+    float: left;
+}
+.image_gallery .image_container
+{
+    float: left;
+    text-align: left;
+}
+.image_gallery .image_container img
+{
+    margin-left: 0.4em;
+    margin-bottom: 0.6em;
+}
+.site_map_path
+{
+    display: block;
+    margin-bottom: 0.4em;
+}
+.site_map_path .path_separator
+{
+    padding: 0.4em;
+}
+.discussion
+{
+    color: black;
+}
+.discussion .float_right
+{
+    float: right;
+}
+.img_ofarnosti
+{
+    border: solid 1px #99ccff;
+    float: left;
+    margin: 0 1.5em 0 0;
+}
+.citace
+{
+    font-style: italic;
+    font-weight: bold;
+}
+.image_gallery_nav
+{
+    text-align: center;
+    width: 100%;
+    padding-top: 1em;
+}
+.image_gallery_img
+{
+    text-align: center;
+    width: 100%;
+    padding-top: 1em;
+}

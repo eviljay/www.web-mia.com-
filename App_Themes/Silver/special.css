@@ -1,0 +1,99 @@
+﻿@media screen
+{
+/*.cornered
+{
+    position: relative;
+    padding: 0;
+    margin: 2em 0 2em 0;
+    border: solid 1px #808080;
+    background: white url(Images/ref-offer-content-bkg.gif) repeat-x left top;
+    width: 100%;
+}
+.cornered .top_left
+{
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    background: #c2cc8f url(Images/ref-corner-top-left.gif) no-repeat left top;
+}
+.cornered .top_right
+{
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    background: #c2cc8f url(Images/ref-corner-top-right.gif) no-repeat right top;
+}
+.cornered .bottom_left
+{
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    background: white url(Images/ref-corner-bottom-left.gif) no-repeat left bottom;
+}
+.cornered .bottom_right
+{
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+    background: white url(Images/ref-corner-bottom-right.gif) no-repeat right bottom;
+}
+.cornered .top_left, .cornered .top_right, .cornered .bottom_left, .cornered .bottom_right
+{
+    height: 10px;
+    width: 10px;
+    font-size: 0;
+}
+.cornered .title
+{
+    margin-top: -1px;
+    padding: 0.4em 0.8em 0.4em 0.8em;
+    background: #a8c227 url(Images/ref-top-middle.gif) repeat-x left top;
+}
+.cornered .content
+{
+    padding: 1.5em;
+    border-top: solid 1px #808080;
+    text-align: left;
+}*/
+.offer
+{
+    background: white url(Images/ref-offer-content-bkg.gif) repeat-x top left;
+    border: solid 1px #808080;
+    margin: 2em 0 2em 0;
+}
+.offer .content
+{
+    padding: 1em 1em 1em 1em;
+    border-top: solid 1px #808080;
+}
+.offer .caption_simple
+{
+    background: #e5e5e5 url(Images/nabidka-simple.jpg) no-repeat left top;
+    height: 25px;
+}
+.offer .caption_dynamic
+{
+    background: #e5e5e5 url(Images/nabidka-dynamic.jpg) no-repeat left top;
+    height: 25px;
+}
+.offer .caption_graphic
+{
+    background: #e5e5e5 url(Images/nabidka-graphic.jpg) no-repeat left top;
+    height: 25px;
+}
+.references
+{
+    background: white url(Images/ref-offer-content-bkg.gif) repeat-x top left;
+    border: solid 1px #808080;
+    margin: 2em 0 2em 0;
+}
+.references .caption
+{
+    padding: 0.4em 0.8em 0.4em 0.8em;
+    background: #a8c227 url(Images/ref-top-middle.gif) repeat-x left top;
+}
+.references .content
+{
+    padding: 1em 1em 1em 1em;
+    border-top: solid 1px #808080;
+}

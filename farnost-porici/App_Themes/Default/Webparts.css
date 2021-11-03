@@ -1,0 +1,23 @@
+﻿#webpart_zones
+{
+    /*float: left;*/
+}
+#webpart_editor_zones
+{
+    position: absolute;
+    top: 25em;
+    right: 3.5em; /*float: left;*/
+}
+.webpart_title
+{
+    background-color: #2b6aa2;
+}
+/*
+.webpart_title
+{
+	background-color: #5D7B9D;
+	padding: 0 0 0 10px;
+	height: 25px;
+	background: url(Images/webpart_background.gif) repeat top left;
+}
+*/

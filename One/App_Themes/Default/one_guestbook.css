@@ -1,0 +1,69 @@
+﻿#one #content .guest_book
+{
+	width: 500px;
+}
+
+#one #content .guest_book table.form
+{
+	background-color: #fbffec;
+}
+
+#one #content .guest_book table.form th
+{
+	height: auto;
+	background-image: none;
+	background-color: #fbffec;
+	text-align: right;
+	font-weight: bold;
+	padding-right: 3px;
+	color: black;
+	vertical-align: text-top;
+}
+
+#one #content .guest_book table.form th.captcha_image
+{
+	text-align: center;
+}
+
+#one #content .guest_book table.form input,
+#one #content .guest_book table.form textarea
+{
+	background-color: #ffffff; 
+	border: 1px solid #6c801d; 
+}
+
+#one #content .guest_book table.form label,
+#one #content .guest_book table.form span
+{
+	padding-right: 8px;
+}
+
+#one #content .guest_book table.form label.required,
+#one #content .guest_book table.form span.required
+{
+	padding-right: 8px;
+	background: url('images/icon_required_field.gif') no-repeat right center;
+}
+
+#one #content .guest_book .guest_book_message
+{
+	text-align: left;
+}
+
+#one #content .guest_book .guest_book_message div.float_right
+{
+	float: right;
+	display: inline;
+	text-align: right;
+}
+
+#one #content .guest_book .guest_book_message .guest_book_message_reply
+{
+	padding-left: 3em;
+}
+
+#one #content .guest_book .guest_book_message .datetime
+{
+	font-weight: bold;
+	color: #6c801d;
+}

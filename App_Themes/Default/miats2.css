@@ -1,0 +1,412 @@
+/*
+pozadi: #EFEFEF
+pismo: #585c9c
+odkaz: #585C9C
+odkaz v pozadi: #cfcfe5
+*/
+*
+{
+	/*border: solid 1px red;*/
+}
+
+body
+{
+	background: white url(images/bkgimg.gif) repeat;
+	margin: 0;
+	padding: 0;
+}
+
+#aspnetForm
+{
+	margin: 0;
+	padding: 0;
+}
+
+#miats2
+{
+	color: #585C9C;
+	background-color: white;
+	font-family: Tahoma;
+	font-size: 10pt;
+}
+
+#miats2 table.layout
+{
+	width: 100%;
+}
+
+#miats2 table.layout td.left
+{
+	width: 10px;
+	background-image: url('images/layout_left.gif');
+}
+
+#miats2 table.layout td.right
+{
+	width: 10px;
+	background-image: url('images/layout_right.gif');
+}
+
+#miats2 #page
+{
+	text-align: center;
+}
+/*
+#miats2 #head
+{
+	height: 150px;
+	width: 800px;
+	background: #EFEFEF url(images/logo.jpg) no-repeat center center;
+	border: solid 1px #7A82C3;
+}
+*/
+
+#miats2 div#head
+{
+	width: 99%;
+	height: 150px;
+	background: white url('images/logo_filler.jpg') repeat;
+	z-index: 10;
+}
+
+#miats2 #head div.left
+{
+	position: absolute;
+	top: 0;
+	left: 10px;
+	height: 150px;
+	width: 100px;
+	background: white url('images/logo_left.jpg') no-repeat;
+	z-index: 20;
+}
+
+#miats2 #head div.middle1
+{
+	position: absolute;
+	top: 0;
+	left: 15%;
+	height: 150px;
+	width: 100px;
+	background: white url('images/logo_middle1.jpg') no-repeat;
+	z-index: 15;
+}
+
+#miats2 #head div.middle2
+{
+	top: 0;
+	height: 150px;
+	width: 350px;
+	background: white url('images/logo_middle2.jpg') no-repeat;
+	z-index: 13;
+}
+
+#miats2 #head div.middle3
+{
+	position: absolute;
+	top: 0;
+	right: 15%;
+	height: 150px;
+	width: 100px;
+	background: white url('images/logo_middle3.jpg') no-repeat;
+	z-index: 15;
+}
+
+#miats2 #head div.right
+{
+	position: absolute;
+	top: 0;
+	right: 10px;
+	height: 150px;
+	width: 100px;
+	background: white url('images/logo_right.jpg') no-repeat;
+	z-index: 20;
+}
+
+#miats2 #top_bar
+{
+	padding: 1px 1px 0px 1px;
+	height: 21px;
+	width: 100%;
+	background: #585C9C url(images/ledge_menu_background.gif) repeat;
+	text-align: center;
+	color: #cfcfe5;
+	font-weight: bold;
+}
+
+#miats2 #top_bar a
+{
+	padding-left: 8px;
+	padding-right: 8px;
+	color: white;
+	text-decoration: none;
+}
+
+#miats2 #top_bar img
+{
+	border: none;
+	vertical-align: bottom;
+}
+
+#miats2 #top_bar a:hover
+{
+	color: white;
+	text-decoration: underline;
+}
+
+#miats2 #content
+{
+	padding: 1em 0 1em 0;
+	/*width: 100%;*/
+	text-align: center;
+	background-color: #EFEFEF;
+	color: #585C9C;
+	border: solid 1px #7A82C3;
+}
+
+#miats2 #html_content
+{
+	padding: 1em, 0, 1em, 0;
+}
+
+#miats2 #html_content,
+#miats2 #content .bg_image
+{
+	color: black;
+	background-color: white;
+	background: #CFCFE5;
+}
+
+#miats2 #content a
+{
+	color: #585C9C;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#miats2 #content a:hover
+{
+	color: #585C9C;
+	text-decoration: underline;
+}
+
+#miats2 #content a.inactive_link,
+#miats2 #content a:hover.inactive_link
+{
+	color: gray;
+}
+
+#miats2 #html_content a,
+#miats2 #content .bg_image a
+{
+	color: #585C9C;
+	font-weight: normal;
+	text-align: left;
+	line-height: 25px;
+}
+
+#miats2 #content a.img_href,
+#miats2 #content a:hover.img_href
+{
+	text-decoration: none;
+}
+
+#miats2 #content .page_title
+{
+	color: black;
+	padding: 0.5em 0 1em 0;
+	font-weight: bold;
+}
+
+#miats2 #content .padding_top_bottom
+{
+	padding: 0em 0 1em 0;
+}
+
+#miats2 #content .padding_mainpage
+{
+	padding: 0em 4em 0em 4em;
+}
+
+#miats2 #content .padding_mainpage_left
+{
+	padding: 1em 4em 1em 4em;
+	text-align: left;
+}
+
+#miats2 #content .bordered_content
+{
+	border: solid 1px #7A82C3;
+}
+
+#miats2 #footer
+{
+	width: 100%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+	font-size: 8pt;
+}
+
+
+#miats2 .hidden_href,
+#miats2 #footer A:hover.hidden_href
+{
+	color: #585c9c;
+	text-decoration: none;
+	cursor: text;
+}
+
+#miats2 .page_edit_console
+{
+	padding: 3px 1px 0px 1px;
+	height: 21px;
+	width: 100%;
+	background: #585C9C url(images/ledge_menu_background.gif) repeat;
+	text-align: center;
+	color: #cfcfe5;
+	font-weight: bold;
+}
+
+#miats2 .page_edit_console a
+{
+	padding-left: 8px;
+	padding-right: 8px;
+	color: yellow;
+	text-decoration: none;
+}
+
+#miats2 .page_edit_console a:hover
+{
+	color: yellow;
+	text-decoration: underline;
+}
+
+#miats2 .top_bar_inv
+{
+	background: #585C9C url(images/ledge_menu_background_inv.gif) repeat;
+}
+
+#miats2 #top_bar .flag
+{
+	height: 16px;
+	vertical-align: middle;
+}
+
+#miats2 #content hr
+{
+	color: #7A82C3;
+	height: 1px;
+}
+
+#miats2 #content table.main
+{
+	border: solid 1px #7A82C3;
+}
+
+#miats2 #content table.WebPart
+{
+	margin: 3px 3px 3px 3px;
+	border: solid 1px #7A82C3;
+}
+
+#miats2 #content table th
+{
+	height: 25px;
+	background: #585C9C url(images/th_part_grad.gif) repeat;
+	color: black;
+}
+
+#miats2 #content .houses_and_lots_image
+{
+	padding: 20px;
+}
+
+#miats2 #content .houses_and_lots_content
+{
+	text-align: left;
+	padding: 20px;
+}
+
+#miats2 #content .ts2_downloads_menu ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0 0 0 12px;
+}
+
+#miats2 #content .ts2_downloads_menu ul.sub
+{
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 12px;
+}
+
+#miats2 #content .ts2_downloads_menu ul.sub a
+{
+	font-weight: normal;
+}
+
+#miats2 #content .site_map
+{
+	display: inline;
+}
+
+#miats2 #content .site_map a
+{
+	line-height: 20px;
+	padding: 0 4px 0 4px;
+	color: black;
+	text-decoration: none;
+}
+
+#miats2 #content .site_map a:hover
+{
+	color: black;
+	text-decoration: underline;
+}
+
+#miats2 #content .page_padding_map
+{
+	padding-bottom: 4px;
+	padding-top: 4px;
+}
+
+#miats2 #content .page_padding_map .selected
+{
+	padding: 0 4px 0 4px;
+	font-weight: bold;
+	color: black;
+}
+
+#miats2 #content .page_padding_map a
+{
+	font-weight: bold;
+	padding: 0 4px 0 4px;
+	color: #585c9c;
+	text-decoration: none;
+}
+
+#miats2 #content .page_padding_map a:hover
+{
+	color: #585c9c;
+	text-decoration: underline;
+}
+
+#miats2 #content h1
+{
+	
+	color: #585C9C;
+	font-size: 10pt;
+}
+
+#miats2 #content h2
+{
+	color: #99CC00;
+	font-size: 10pt;
+}
+
+#miats2 #content .webpart_container
+{
+	border: solid 10px #CFCFE5;
+	/*background-color: white;*/
+}

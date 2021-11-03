@@ -1,0 +1,73 @@
+table .WebPartZone
+{
+	display: inline;
+}
+
+.WebPartZone .WebPartTitle
+{
+	height: 25px;
+	color: black;
+	font-weight: bold;
+	padding: 0 10px 0 10px;
+	background: url(Images/webpart_title_background.gif) repeat;
+	text-align: left;
+}
+
+.CatalogZone .ZoneHeader,
+.EditorZone .ZoneHeader
+{
+	color: #cfcfe5;
+	background: url(Images/webpart_title_background.gif) repeat;
+}
+
+.EditorZone .WebPart
+{
+	color: Black;
+	background-color: #e6e6fa;
+}
+
+.EditorZone .WebPartTitle,
+.CatalogZone .WebPartTitle
+{
+	color: #cfcfe5;
+	background: url(Images/webpart_title_background.gif) repeat;
+}
+
+#one #content .PartChromeStyle
+{
+	border: solid 1px #aac37a;
+	background-color: white;
+}
+
+#one #content div.webpart_main
+{
+	border: solid 1px #aac37a;
+	background-color: #fbffec;
+}
+
+#one #content div.webpart_main hr
+{
+	width: 90%;
+}
+
+#one #content .webpart_main_margin
+{
+	margin: 0 4px 0 4px;
+}
+
+#one #content .imageWithHtmlEditor td.image
+{
+	padding: 20px;
+}
+
+#one #content .imageWithHtmlEditor td.content
+{
+	text-align: left;
+	padding: 20px;
+}
+
+#one #content .imageWithHtmlEditor th.title
+{
+	text-align: left;
+	padding-left: 10px;
+}

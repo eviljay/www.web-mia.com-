@@ -1,0 +1,257 @@
+
+
+<html>
+<head>
+    <meta name="Farnost Poříčí nad Sázavou - diskuzní fórum" content="diskuzní fórum farnosti Poříčí nad Sázavou">
+    <!-- If you don't want the forum to set the page title, you can remove runat and id -->
+    <title id="ForumTitle">Diskuze - F&#243;rum farnosti Poř&#237;č&#237; nad S&#225;zavou</title>
+    <link href="http://www.web-mia.com/farnost-porci/forum/images/favicon.ico" rel="shortcut icon" />
+</head>
+<body>
+    <form name="Form1" method="post" action="default.aspx?g=topics&amp;f=9" id="Form1" enctype="multipart/form-data">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE2MzMwOTU0OTkPZBYEAgEPFgIeCWlubmVyaHRtbAVBRGlza3V6ZSAtIEYmIzI0MztydW0gZmFybm9zdGkgUG/FmSYjMjM3O8SNJiMyMzc7IG5hZCBTJiMyMjU7emF2b3VkAgMPZBYEAgEPFgIeA3NyYwU8L0Zhcm5vc3QtUG9yaWNpL0ZvcnVtL3RoZW1lcy9GYXJub3N0LVBvcmljaS9mb3J1bV9iYW5uZXIuanBnZAIDD2QWAmYPZBYgZg8WAh4EZGF0YTLqDQABAAAA/////wEAAAAAAAAADAIAAABOU3lzdGVtLkRhdGEsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5BQEAAAAVU3lzdGVtLkRhdGEuRGF0YVRhYmxlAwAAABlEYXRhVGFibGUuUmVtb3RpbmdWZXJzaW9uCVhtbFNjaGVtYQtYbWxEaWZmR3JhbQMBAQ5TeXN0ZW0uVmVyc2lvbgIAAAAJAwAAAAYEAAAA2gU8P3htbCB2ZXJzaW9uPSIxLjAiIGVuY29kaW5nPSJ1dGYtMTYiPz4NCjx4czpzY2hlbWEgeG1sbnM9IiIgeG1sbnM6eHM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDEvWE1MU2NoZW1hIiB4bWxuczptc2RhdGE9InVybjpzY2hlbWFzLW1pY3Jvc29mdC1jb206eG1sLW1zZGF0YSI+DQogIDx4czplbGVtZW50IG5hbWU9IlRhYmxlMSI+DQogICAgPHhzOmNvbXBsZXhUeXBlPg0KICAgICAgPHhzOnNlcXVlbmNlPg0KICAgICAgICA8eHM6ZWxlbWVudCBuYW1lPSJUaXRsZSIgdHlwZT0ieHM6c3RyaW5nIiBtc2RhdGE6dGFyZ2V0TmFtZXNwYWNlPSIiIG1pbk9jY3Vycz0iMCIgLz4NCiAgICAgICAgPHhzOmVsZW1lbnQgbmFtZT0iVVJMIiB0eXBlPSJ4czpzdHJpbmciIG1zZGF0YTp0YXJnZXROYW1lc3BhY2U9IiIgbWluT2NjdXJzPSIwIiAvPg0KICAgICAgPC94czpzZXF1ZW5jZT4NCiAgICA8L3hzOmNvbXBsZXhUeXBlPg0KICA8L3hzOmVsZW1lbnQ+DQogIDx4czplbGVtZW50IG5hbWU9InRtcERhdGFTZXQiIG1zZGF0YTpJc0RhdGFTZXQ9InRydWUiIG1zZGF0YTpNYWluRGF0YVRhYmxlPSJUYWJsZTEiIG1zZGF0YTpVc2VDdXJyZW50TG9jYWxlPSJ0cnVlIj4NCiAgICA8eHM6Y29tcGxleFR5cGU+DQogICAgICA8eHM6Y2hvaWNlIG1pbk9jY3Vycz0iMCIgbWF4T2NjdXJzPSJ1bmJvdW5kZWQiIC8+DQogICAgPC94czpjb21wbGV4VHlwZT4NCiAgPC94czplbGVtZW50Pg0KPC94czpzY2hlbWE+BgUAAADjBTxkaWZmZ3I6ZGlmZmdyYW0geG1sbnM6bXNkYXRhPSJ1cm46c2NoZW1hcy1taWNyb3NvZnQtY29tOnhtbC1tc2RhdGEiIHhtbG5zOmRpZmZncj0idXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTp4bWwtZGlmZmdyYW0tdjEiPg0KICA8dG1wRGF0YVNldD4NCiAgICA8VGFibGUxIGRpZmZncjppZD0iVGFibGUxMSIgbXNkYXRhOnJvd09yZGVyPSIwIiBkaWZmZ3I6aGFzQ2hhbmdlcz0iaW5zZXJ0ZWQiPg0KICAgICAgPFRpdGxlPkbDs3J1bSBmYXJub3N0aSBQb8WZw63EjcOtIG5hZCBTw6F6YXZvdTwvVGl0bGU+DQogICAgICA8VVJMPi9mYXJub3N0LXBvcmljaS9mb3J1bS9kZWZhdWx0LmFzcHg/Zz1mb3J1bTwvVVJMPg0KICAgIDwvVGFibGUxPg0KICAgIDxUYWJsZTEgZGlmZmdyOmlkPSJUYWJsZTEyIiBtc2RhdGE6cm93T3JkZXI9IjEiIGRpZmZncjpoYXNDaGFuZ2VzPSJpbnNlcnRlZCI+DQogICAgICA8VGl0bGU+RsOzcnVtPC9UaXRsZT4NCiAgICAgIDxVUkw+L2Zhcm5vc3QtcG9yaWNpL2ZvcnVtL2RlZmF1bHQuYXNweD9nPWZvcnVtJmFtcDtjPTQ8L1VSTD4NCiAgICA8L1RhYmxlMT4NCiAgICA8VGFibGUxIGRpZmZncjppZD0iVGFibGUxMyIgbXNkYXRhOnJvd09yZGVyPSIyIiBkaWZmZ3I6aGFzQ2hhbmdlcz0iaW5zZXJ0ZWQiPg0KICAgICAgPFRpdGxlPkRpc2t1emU8L1RpdGxlPg0KICAgICAgPFVSTCAvPg0KICAgIDwvVGFibGUxPg0KICA8L3RtcERhdGFTZXQ+DQo8L2RpZmZncjpkaWZmZ3JhbT4EAwAAAA5TeXN0ZW0uVmVyc2lvbgQAAAAGX01ham9yBl9NaW5vcgZfQnVpbGQJX1JldmlzaW9uAAAAAAgICAgCAAAAAAAAAP//////////C2QCAg9kFgJmDxUEBkbDs3J1bQdUw6ltYXRhDFDFmcOtc3DEm3ZreRZQb3NsZWRuw60gcMWZw61zcMSbdmVrZAIEDxYEHghQYWdlU2l6ZQIPHgVDb3VudAIJZAIGDw8WBh4EVGV4dAVdPGltZyBhbGlnbj0nYWJzbWlkZGxlJyBzcmM9Jy9GYXJub3N0LVBvcmljaS9Gb3J1bS90aGVtZXMvRmFybm9zdC1Qb3JpY2kvdG9waWNfbW9kZXJhdGUucG5nJy8+HgdUb29sVGlwBRNNb2RlcmF0ZSB0aGlzIGZvcnVtHgdWaXNpYmxlaGRkAggPDxYGHwUFWTxpbWcgYWxpZ249YWJzbWlkZGxlIHNyYz0nL0Zhcm5vc3QtUG9yaWNpL0ZvcnVtL3RoZW1lcy9GYXJub3N0LVBvcmljaS9iX3Bvc3RfdG9waWMucG5nJy8+HwYFDlBvc3QgbmV3IHRvcGljHwdoZGQCCg8PFgIfBQUHRGlza3V6ZWRkAgsPFQUHVMOpbWF0YQ5Uw6ltYSB6YWxvxb5pbAlPZHBvdsSbZGkKWmhsw6lkbnV0bxZQb3NsZWRuw60gcMWZw61zcMSbdmVrZAIMDxYCHgtfIUl0ZW1Db3VudAIDZAIODxYCHwgCCWQCEQ8VARBab2JyYXppdCB0w6ltYXRhZAISDxAPFgYeDURhdGFUZXh0RmllbGQFCVRvcGljVGV4dB4ORGF0YVZhbHVlRmllbGQFClRvcGljVmFsdWUeC18hRGF0YUJvdW5kZ2QQFQgIdsWhZWNobmEQemEgcG9zbGVkbsOtIGRlbhR6YSBwb3NsZWRuw60gZHZhIGRueRN6YSBwb3NsZWRuw60gdMO9ZGVuF3phIHBvc2xlZG7DrSBkdmEgdMO9ZG55FHphIHBvc2xlZG7DrSBtxJtzw61jGXphIHBvc2xlZG7DrSBkdmEgbcSbc8OtY2UeemEgcG9zbGVkbsOtY2ggxaFlc3QgbcSbc8OtY8WvFQgBMAExATIBMwE0ATUBNgE3FCsDCGdnZ2dnZ2dnFgFmZAIXDw8WAh8FBSVPem5hxI1pdCB0b3RvIGbDs3J1bSBqYWtvIHDFmWXEjXRlbsOpZGQCGw8PFgQeC05hdmlnYXRlVXJsBTsvZmFybm9zdC1wb3JpY2kvZm9ydW0vZGVmYXVsdC5hc3B4P2c9cnNzdG9waWMmcGc9dG9waWNzJmY9OR8FBQlSc3MgemRyb2pkZAIfDw8WBh8FBV08aW1nIGFsaWduPSdhYnNtaWRkbGUnIHNyYz0nL0Zhcm5vc3QtUG9yaWNpL0ZvcnVtL3RoZW1lcy9GYXJub3N0LVBvcmljaS90b3BpY19tb2RlcmF0ZS5wbmcnLz4fBgUTTW9kZXJhdGUgdGhpcyBmb3J1bR8HaGRkAiEPDxYGHwUFWTxpbWcgYWxpZ249YWJzbWlkZGxlIHNyYz0nL0Zhcm5vc3QtUG9yaWNpL0ZvcnVtL3RoZW1lcy9GYXJub3N0LVBvcmljaS9iX3Bvc3RfdG9waWMucG5nJy8+HwYFDlBvc3QgbmV3IHRvcGljHwdoZGQCIw9kFgJmD2QWBGYPFQELUMWZZWrDrXQgbmFkAgEPFgIeB0ZvcnVtSUQCCWRkSvA3YdPIZnlANKapdhPSgygCWNU=" />
+
+        <div id="page">
+            
+            <div id="header">
+                <div id="header_logo">
+                </div>
+                <div id="header_text">
+                    <h1 class="hidden">
+                        <a href="http://www.web-mia.com/Farnost-Porici/Default.aspx" title="Úvod">Farnost Poříčí</a></h1>
+                </div>
+                <div id="header_line">
+                <a href="http://www.web-mia.com/Farnost-Porici/">Zpět na stránky farnosti</a>
+                </div>
+            </div>
+            <hr class="hidden" />
+            <link type="text/css" rel="stylesheet" href="/Farnost-Porici/Forum/forum.css" />
+<link type="text/css" rel="stylesheet" href="/Farnost-Porici/Forum/themes/Farnost-Porici/theme.css" />
+<table width=100% cellspacing=0 class=content cellpadding=0><tr><td style="padding:5px" class=post align=left><b>Vítejte, návštěvníku</b></td><td style="padding:5px" align=right valign=middle class=post>	<a href="/farnost-porici/forum/default.aspx?g=search">Hledat</a> | 	<a href="/farnost-porici/forum/default.aspx?g=active">Aktivní témata</a> | 	<a href="/farnost-porici/forum/default.aspx?g=members">Seznam uživatelů</a> | <a href="/farnost-porici/forum/default.aspx?g=login&ReturnUrl=%2ffarnost-porici%2fforum%2fdefault.aspx%3fg%3dtopics%2526f%3d9">Přihlásit se</a> | <a href="/farnost-porici/forum/default.aspx?g=rules">Registrace</a></td></tr></table><br /><p class="navlinks">
+<a href="/farnost-porici/forum/default.aspx?g=forum">Fórum farnosti Poříčí nad Sázavou</a>
+&#187;
+<a href="/farnost-porici/forum/default.aspx?g=forum&c=4">Fórum</a>
+&#187;
+<span id="current">Diskuze</span>
+</p>
+
+
+<table class="command" cellspacing="0" cellpadding="0" width="100%">
+    <tr>
+        <td class="navlinks" align="left">
+            
+        </td>
+        <td align="right">
+            
+            
+        </td>
+    </tr>
+</table>
+<table class="content" cellspacing="1" cellpadding="0" width="100%">
+    <tr>
+        <td class="header1" colspan="6">
+            <span id="forum__ctl0_PageTitle">Diskuze</span></td>
+    </tr>
+    <tr>
+        <td class="header2" width="1%">
+            &nbsp;</td>
+        <td class="header2" align="left">
+            Témata
+        </td>
+        <td class="header2" align="left" width="20%">
+            Téma založil
+        </td>
+        <td class="header2" align="middle" width="7%">
+            Odpovědi
+        </td>
+        <td class="header2" align="middle" width="7%">
+            Zhlédnuto
+        </td>
+        <td class="header2" align="middle" width="25%">
+            Poslední příspěvek
+        </td>
+    </tr>
+    
+            <tr class="post"><td><img title="Oznámení" src="/Farnost-Porici/Forum/themes/Farnost-Porici/topic_announce.png"></td><td><span class="post_priority">[ Oznámení ] </span><a href="/farnost-porici/forum/default.aspx?g=posts&t=17" class="post_link">PRAVIDLA diskuzn&#237;ho f&#243;ra</a></td><td><a href="/farnost-porici/forum/default.aspx?g=profile&u=3">Mia</a></td><td align="center">0</td><td align="center">4,192</td><td align="center" class="smallfont">2/11/2008 4:16:30 PM<br />od uživatele <a href="/farnost-porici/forum/default.aspx?g=profile&u=3">Mia</a>&nbsp;<a title="Zobrazit poslední příspěvek" href="/farnost-porici/forum/default.aspx?g=posts&m=325#325"><img border=0 src='/Farnost-Porici/Forum/themes/Farnost-Porici/icon_latest_reply.gif'></a></td></tr>
+        
+            <tr class="post"><td><img title="Oznámení" src="/Farnost-Porici/Forum/themes/Farnost-Porici/topic_announce.png"></td><td><span class="post_priority">[ Oznámení ] </span><a href="/farnost-porici/forum/default.aspx?g=posts&t=9" class="post_link">Technick&#233; informace o provozu f&#243;ra</a></td><td><a href="/farnost-porici/forum/default.aspx?g=profile&u=3">Mia</a></td><td align="center">2</td><td align="center">5,249</td><td align="center" class="smallfont">2/11/2008 4:05:37 PM<br />od uživatele <a href="/farnost-porici/forum/default.aspx?g=profile&u=3">Mia</a>&nbsp;<a title="Zobrazit poslední příspěvek" href="/farnost-porici/forum/default.aspx?g=posts&m=324#324"><img border=0 src='/Farnost-Porici/Forum/themes/Farnost-Porici/icon_latest_reply.gif'></a></td></tr>
+        
+            <tr class="post"><td><img title="Oznámení" src="/Farnost-Porici/Forum/themes/Farnost-Porici/topic_announce.png"></td><td><span class="post_priority">[ Oznámení ] </span><a href="/farnost-porici/forum/default.aspx?g=posts&t=10" class="post_link">N&#225;pověda neboli jak si poradit s f&#243;rem</a></td><td><a href="/farnost-porici/forum/default.aspx?g=profile&u=3">Mia</a></td><td align="center">0</td><td align="center">5,055</td><td align="center" class="smallfont">5/15/2007 11:31:35 PM<br />od uživatele <a href="/farnost-porici/forum/default.aspx?g=profile&u=3">Mia</a>&nbsp;<a title="Zobrazit poslední příspěvek" href="/farnost-porici/forum/default.aspx?g=posts&m=37#37"><img border=0 src='/Farnost-Porici/Forum/themes/Farnost-Porici/icon_latest_reply.gif'></a></td></tr>
+        
+    
+            <tr class="post"><td><img title="Důležité" src="/Farnost-Porici/Forum/themes/Farnost-Porici/topic_sticky.png"></td><td><span class="post_priority">[ Důležité ] </span><a href="/farnost-porici/forum/default.aspx?g=posts&t=4" class="post_link">Vaše n&#225;měty, n&#225;pady, připom&#237;nky a hl&#225;šen&#237; probl&#233;mů</a></td><td><a href="/farnost-porici/forum/default.aspx?g=profile&u=3">Mia</a></td><td align="center">19</td><td align="center">8,564</td><td align="center" class="smallfont">7/14/2008 5:19:05 PM<br />od uživatele <a href="/farnost-porici/forum/default.aspx?g=profile&u=4">Renata</a>&nbsp;<a title="Zobrazit poslední příspěvek" href="/farnost-porici/forum/default.aspx?g=posts&m=399#399"><img border=0 src='/Farnost-Porici/Forum/themes/Farnost-Porici/icon_latest_reply.gif'></a></td></tr>
+        
+            <tr class="post_alt"><td><img title="Žádné nové příspěvky" src="/Farnost-Porici/Forum/themes/Farnost-Porici/topic.png"></td><td><span class="post_priority"></span><a href="/farnost-porici/forum/default.aspx?g=posts&t=14" class="post_link">Jakub Jan Ryba</a></td><td><a href="/farnost-porici/forum/default.aspx?g=profile&u=7">Filip</a></td><td align="center">3</td><td align="center">5,690</td><td align="center" class="smallfont">11/27/2008 9:22:46 PM<br />od uživatele <a href="/farnost-porici/forum/default.aspx?g=profile&u=8">K&#237;ťa</a>&nbsp;<a title="Zobrazit poslední příspěvek" href="/farnost-porici/forum/default.aspx?g=posts&m=407#407"><img border=0 src='/Farnost-Porici/Forum/themes/Farnost-Porici/icon_latest_reply.gif'></a></td></tr>
+        
+            <tr class="post"><td><img title="Žádné nové příspěvky" src="/Farnost-Porici/Forum/themes/Farnost-Porici/topic.png"></td><td><span class="post_priority"></span><a href="/farnost-porici/forum/default.aspx?g=posts&t=19" class="post_link">Alfa Pro Ml&#225;dež</a></td><td><a href="/farnost-porici/forum/default.aspx?g=profile&u=7">Filip</a></td><td align="center">1</td><td align="center">953</td><td align="center" class="smallfont">11/27/2008 9:20:49 PM<br />od uživatele <a href="/farnost-porici/forum/default.aspx?g=profile&u=8">K&#237;ťa</a>&nbsp;<a title="Zobrazit poslední příspěvek" href="/farnost-porici/forum/default.aspx?g=posts&m=406#406"><img border=0 src='/Farnost-Porici/Forum/themes/Farnost-Porici/icon_latest_reply.gif'></a></td></tr>
+        
+            <tr class="post_alt"><td><img title="Žádné nové příspěvky" src="/Farnost-Porici/Forum/themes/Farnost-Porici/topic.png"></td><td><span class="post_priority"></span><a href="/farnost-porici/forum/default.aspx?g=posts&t=18" class="post_link">MAMINKY</a></td><td><a href="/farnost-porici/forum/default.aspx?g=profile&u=20">Hedvika</a></td><td align="center">4</td><td align="center">2,331</td><td align="center" class="smallfont">10/3/2008 10:55:25 AM<br />od uživatele <a href="/farnost-porici/forum/default.aspx?g=profile&u=20">Hedvika</a>&nbsp;<a title="Zobrazit poslední příspěvek" href="/farnost-porici/forum/default.aspx?g=posts&m=405#405"><img border=0 src='/Farnost-Porici/Forum/themes/Farnost-Porici/icon_latest_reply.gif'></a></td></tr>
+        
+            <tr class="post"><td><img title="Žádné nové příspěvky" src="/Farnost-Porici/Forum/themes/Farnost-Porici/topic.png"></td><td><span class="post_priority"></span><a href="/farnost-porici/forum/default.aspx?g=posts&t=7" class="post_link">Farn&#237; zpravodaj</a><br/><span class="smallfont">[ Přejít na stránku: <a href="/farnost-porici/forum/default.aspx?g=posts&t=7&p=1">1</a>, <a href="/farnost-porici/forum/default.aspx?g=posts&t=7&p=2">2</a> ]</span></td><td><a href="/farnost-porici/forum/default.aspx?g=profile&u=4">Renata</a></td><td align="center">25</td><td align="center">8,970</td><td align="center" class="smallfont">9/3/2008 9:30:40 AM<br />od uživatele <a href="/farnost-porici/forum/default.aspx?g=profile&u=4">Renata</a>&nbsp;<a title="Zobrazit poslední příspěvek" href="/farnost-porici/forum/default.aspx?g=posts&m=402#402"><img border=0 src='/Farnost-Porici/Forum/themes/Farnost-Porici/icon_latest_reply.gif'></a></td></tr>
+        
+            <tr class="post_alt"><td><img title="Žádné nové příspěvky" src="/Farnost-Porici/Forum/themes/Farnost-Porici/topic.png"></td><td><span class="post_priority"></span><a href="/farnost-porici/forum/default.aspx?g=posts&t=11" class="post_link">Letn&#237; Charismatick&#225; Katolick&#225; konference v Brně</a><br/><span class="smallfont">[ Přejít na stránku: <a href="/farnost-porici/forum/default.aspx?g=posts&t=11&p=1">1</a>, <a href="/farnost-porici/forum/default.aspx?g=posts&t=11&p=2">2</a> ]</span></td><td><a href="/farnost-porici/forum/default.aspx?g=profile&u=9">Matěj</a></td><td align="center">20</td><td align="center">6,151</td><td align="center" class="smallfont">7/13/2008 6:27:12 PM<br />od uživatele <a href="/farnost-porici/forum/default.aspx?g=profile&u=4">Renata</a>&nbsp;<a title="Zobrazit poslední příspěvek" href="/farnost-porici/forum/default.aspx?g=posts&m=398#398"><img border=0 src='/Farnost-Porici/Forum/themes/Farnost-Porici/icon_latest_reply.gif'></a></td></tr>
+        
+            <tr class="post"><td><img title="Žádné nové příspěvky" src="/Farnost-Porici/Forum/themes/Farnost-Porici/topic.png"></td><td><span class="post_priority"></span><a href="/farnost-porici/forum/default.aspx?g=posts&t=13" class="post_link">Farn&#237; t&#225;bor</a></td><td><a href="/farnost-porici/forum/default.aspx?g=profile&u=10">Zdisa</a></td><td align="center">15</td><td align="center">7,415</td><td align="center" class="smallfont">7/5/2008 1:35:26 PM<br />od uživatele <a href="/farnost-porici/forum/default.aspx?g=profile&u=8">K&#237;ťa</a>&nbsp;<a title="Zobrazit poslední příspěvek" href="/farnost-porici/forum/default.aspx?g=posts&m=396#396"><img border=0 src='/Farnost-Porici/Forum/themes/Farnost-Porici/icon_latest_reply.gif'></a></td></tr>
+        
+            <tr class="post_alt"><td><img title="Žádné nové příspěvky" src="/Farnost-Porici/Forum/themes/Farnost-Porici/topic.png"></td><td><span class="post_priority"></span><a href="/farnost-porici/forum/default.aspx?g=posts&t=5" class="post_link">EXIT 316</a><br/><span class="smallfont">[ Přejít na stránku: <a href="/farnost-porici/forum/default.aspx?g=posts&t=5">1</a> ... <a href="/farnost-porici/forum/default.aspx?g=posts&t=5&p=4">4</a>, <a href="/farnost-porici/forum/default.aspx?g=posts&t=5&p=5">5</a>, <a href="/farnost-porici/forum/default.aspx?g=posts&t=5&p=6">6</a> ]</span></td><td><a href="/farnost-porici/forum/default.aspx?g=profile&u=1">K&#225;ťa</a></td><td align="center">117</td><td align="center">11,128</td><td align="center" class="smallfont">7/3/2008 7:59:55 PM<br />od uživatele <a href="/farnost-porici/forum/default.aspx?g=profile&u=8">K&#237;ťa</a>&nbsp;<a title="Zobrazit poslední příspěvek" href="/farnost-porici/forum/default.aspx?g=posts&m=392#392"><img border=0 src='/Farnost-Porici/Forum/themes/Farnost-Porici/icon_latest_reply.gif'></a></td></tr>
+        
+            <tr class="post"><td><img title="Žádné nové příspěvky" src="/Farnost-Porici/Forum/themes/Farnost-Porici/topic.png"></td><td><span class="post_priority"></span><a href="/farnost-porici/forum/default.aspx?g=posts&t=16" class="post_link">Nez&#225;vazn&#253; pokec</a></td><td><a href="/farnost-porici/forum/default.aspx?g=profile&u=1">libor</a></td><td align="center">19</td><td align="center">4,542</td><td align="center" class="smallfont">6/2/2008 10:28:50 AM<br />od uživatele <a href="/farnost-porici/forum/default.aspx?g=profile&u=8">K&#237;ťa</a>&nbsp;<a title="Zobrazit poslední příspěvek" href="/farnost-porici/forum/default.aspx?g=posts&m=382#382"><img border=0 src='/Farnost-Porici/Forum/themes/Farnost-Porici/icon_latest_reply.gif'></a></td></tr>
+        
+    <tr class="header2">
+<td colspan="6">Uživatelé prohlížející toto fórum</td>
+</tr>
+<tr class="post">
+<td colspan="6">
+<a href="/farnost-porici/forum/default.aspx?g=profile&u=1">host</a></td>
+</tr>
+
+    <tr>
+        <td align="middle" colspan="6" class="footer1">
+            <table cellspacing="0" cellpadding="0" width="100%">
+                <tr>
+                    <td width="1%">
+                        <nobr>
+                            Zobrazit témata
+                            <select name="forum:_ctl0:ShowList" id="forum__ctl0_ShowList">
+	<option selected="selected" value="0">všechna</option>
+	<option value="1">za posledn&#237; den</option>
+	<option value="2">za posledn&#237; dva dny</option>
+	<option value="3">za posledn&#237; t&#253;den</option>
+	<option value="4">za posledn&#237; dva t&#253;dny</option>
+	<option value="5">za posledn&#237; měs&#237;c</option>
+	<option value="6">za posledn&#237; dva měs&#237;ce</option>
+	<option value="7">za posledn&#237;ch šest měs&#237;ců</option>
+
+</select>
+                        </nobr>
+                    </td>
+                    <td align="right">
+                        <a id="forum__ctl0_WatchForum" href="javascript:__doPostBack('forum$_ctl0$WatchForum','')"></a> |
+                        <a id="forum__ctl0_MarkRead" href="javascript:__doPostBack('forum$_ctl0$MarkRead','')">Označit toto fórum jako přečtené</a>
+                        <span id="forum__ctl0_RSSLinkSpacer">|</span>
+                        <a id="forum__ctl0_RssFeed" href="/farnost-porici/forum/default.aspx?g=rsstopic&amp;pg=topics&amp;f=9">Rss zdroj</a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<table class="command" width="100%" cellspacing="0" cellpadding="0">
+    <tr>
+        <td align="left" class="navlinks">
+            
+        </td>
+        <td align="right">
+            
+            
+        </td>
+    </tr>
+</table>
+<table width="100%" cellspacing="0" cellpadding="0">
+    <tr id="forum__ctl0_ForumJumpLine">
+	<td align="right" colspan="2">
+            Přejít na
+            <select name="forum:_ctl0:_ctl5" onchange="__doPostBack('forum$_ctl0$_ctl5','')" language="javascript" id="forum:_ctl0:_ctl5">
+	<option value=''></option>
+	<option value=''>Fórum</option>
+	<option selected="selected" value='9'> - Diskuze</option>
+	</select>
+	
+        </td>
+</tr>
+
+    <tr>
+        <td valign="top">
+            <table cellspacing="1" cellpadding="1" class="iconlegend"><tr><td><img src="/Farnost-Porici/Forum/themes/Farnost-Porici/topic_new.png"/> Nové příspěvky</td><td><img src="/Farnost-Porici/Forum/themes/Farnost-Porici/topic.png"/> Žádné nové příspěvky</td></tr><tr><td><img src="/Farnost-Porici/Forum/themes/Farnost-Porici/topic_lock_new.png"/> Nové příspěvky (zamknuto)</td><td><img src="/Farnost-Porici/Forum/themes/Farnost-Porici/topic_lock.png"/> Žádné nové příspěvky (zamknuto)</td></tr><tr><td><img src="/Farnost-Porici/Forum/themes/Farnost-Porici/topic_announce.png"/> Oznámení</td><td><img src="/Farnost-Porici/Forum/themes/Farnost-Porici/topic_sticky.png"/> Důležité</td></tr><tr><td><img src="/Farnost-Porici/Forum/themes/Farnost-Porici/topic_moved.png"/> Přesunuto</td><td><img src="/Farnost-Porici/Forum/themes/Farnost-Porici/topic_poll.png"/> Hlasování</td></tr></table>
+        </td>
+        <td align="right">
+            <table cellspacing="1" cellpadding="1">
+                <tr>
+                    <td align="right" valign="top" class="smallfont">
+                        <b>Nemůžete</b> zakládat nová témata v tomto fóru.
+<br/>
+<b>Nemůžete</b> odpovídat na témata v tomto fóru.
+<br/>
+<b>Nemůžete</b> mazat své příspěvky v tomto fóru.
+<br/>
+<b>Nemůžete</b> upravovat své příspěvky v tomto fóru.
+<br/>
+<b>Nemůžete</b> přidávat hlasování v tomto fóru.
+<br/>
+<b>Nemůžete</b> hlasovat v tomto fóru.
+<br/>
+
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<input name="forum:_ctl0:scrollLeft" type="hidden" id="forum__ctl0_scrollLeft" /><input name="forum:_ctl0:scrollTop" type="hidden" id="forum__ctl0_scrollTop" />
+<p style="text-align:center;font-size:7pt">Globální RSS fóra : <a href="/farnost-porici/forum/default.aspx?g=rsstopic&pg=forum"><img valign="absmiddle" src="/Farnost-Porici/Forum/images/rss.gif" alt="RSS" /></a><br /><br />Provozováno na <a target="_top" title="Yet Another Forum.net Home Page" href="http://www.yetanotherforum.net/">Yet Another Forum.net</a> verzi 1.9.0 (NET v2.0) - 10/10/2006<br />Copyright &copy; 2003-2006 Yet Another Forum.net. All rights reserved.<br/>Stránka byla vygenerována za 0.702 sekund.</p>
+
+        </div>
+    
+
+<!-- yaf.controls.SmartScroller ASP.NET Generated Code -->
+<script language = "javascript">
+<!--
+
+  function yaf_GetForm()
+  {
+    var theform;
+    if (window.navigator.appName.toLowerCase().indexOf("microsoft") > -1)
+    {
+	  theform = document.Form1;
+	}
+	else {
+	  theform = document.forms["Form1"];
+    }
+    return theform;
+  }
+
+  function yaf_SmartScroller_GetCoords()
+  {
+    var scrollX, scrollY;
+    if (document.all)
+    {
+      if (!document.documentElement.scrollLeft)
+        scrollX = document.body.scrollLeft;
+      else
+        scrollX = document.documentElement.scrollLeft;
+
+      if (!document.documentElement.scrollTop)
+        scrollY = document.body.scrollTop;
+      else
+        scrollY = document.documentElement.scrollTop;
+    }
+    else
+    {
+      scrollX = window.pageXOffset;
+      scrollY = window.pageYOffset;
+    }
+	var cForm = yaf_GetForm();
+    cForm.forum__ctl0_scrollLeft.value = scrollX;
+    cForm.forum__ctl0_scrollTop.value = scrollY;
+  }
+
+  function yaf_SmartScroller_Scroll()
+  {
+    var cForm = yaf_GetForm();
+    var x = cForm.forum__ctl0_scrollLeft.value;
+    var y = cForm.forum__ctl0_scrollTop.value;
+		if (x || y) window.scrollTo(x, y);
+		if (oldOnLoad != null) oldOnLoad();
+  }
+	
+	var oldOnLoad = window.onload;
+  
+  window.onload = yaf_SmartScroller_Scroll;
+  window.onscroll = yaf_SmartScroller_GetCoords;
+  window.onclick = yaf_SmartScroller_GetCoords;
+  window.onkeypress = yaf_SmartScroller_GetCoords;
+// -->
+</script>
+<!-- End yaf.controls.SmartScroller ASP.NET Generated Code --></form>
+</body>
+</html>

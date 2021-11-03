@@ -1,0 +1,22 @@
+﻿.login
+{
+	font-family: Verdana Tahoma Arial;
+	font-size: 10pt;
+	background-color: #F7F7DE;
+	border: solid 1px #CCCC99;
+}
+
+.login .login_title
+{
+	background-color: #6B696B;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.login .login_button
+{
+	background-color: #FFFBFF;
+	border: solid 1px #CCCCCC;
+	font-size: 0.8em;
+	color: #284775;
+}

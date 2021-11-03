@@ -1,0 +1,81 @@
+﻿#miats2 #content .guest_book
+{
+	width: 500px;
+	margin: 0 auto;
+	background-color: white;
+	padding: 2em;
+	border: solid 1px #7a82c3;
+}
+
+#miats2 #content .guest_book table.form
+{
+	background-color: #cfcfe5;
+	background-color: white;
+}
+
+#miats2 #content .guest_book table.form th
+{
+	border: none;
+	height: auto;
+	background-image: none;
+	background-color: #cfcfe5;
+	background-color: white;
+	text-align: right;
+	font-weight: bold;
+	padding-right: 3px;
+	color: #585c9c;
+	vertical-align: text-top;
+}
+
+#miats2 #content .guest_book table.form th.captcha_image
+{
+	text-align: center;
+}
+
+#miats2 #content .guest_book table.form input,
+#miats2 #content .guest_book table.form textarea
+{
+	background-color: #ffffff; 
+	border: 1px solid #526BA5; 
+}
+
+#miats2 #content .guest_book table.form label,
+#miats2 #content .guest_book table.form span
+{
+	padding-right: 8px;
+}
+
+#miats2 #content .guest_book table.form label.required,
+#miats2 #content .guest_book table.form span.required
+{
+	padding-right: 8px;
+	background: url('images/icon_required_field.gif') no-repeat right center;
+}
+
+#miats2 #content .guest_book .guest_book_message
+{
+	text-align: left;
+}
+
+#miats2 #content .guest_book .guest_book_message div.float_right
+{
+	float: right;
+	display: inline;
+	text-align: right;
+}
+
+#miats2 #content .guest_book .guest_book_message .guest_book_message_reply
+{
+	padding-left: 3em;
+}
+
+#miats2 #content .guest_book .guest_book_message .datetime
+{
+	font-weight: bold;
+	color: #585c9c;
+}
+
+#miats2 #content .smilies
+{
+	margin: 1em  0 1em 0;
+}

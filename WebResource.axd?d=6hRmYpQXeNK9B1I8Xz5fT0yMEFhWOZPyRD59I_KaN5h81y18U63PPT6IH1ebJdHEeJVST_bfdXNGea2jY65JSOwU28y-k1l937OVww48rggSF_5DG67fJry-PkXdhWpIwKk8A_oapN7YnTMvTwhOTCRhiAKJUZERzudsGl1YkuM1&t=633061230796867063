@@ -1,0 +1,35 @@
+
+Function.abstractMethod = function()
+{
+    throw 'Abstract method should be implemented';
+}
+
+Function.createCallback = function(method, context)
+{
+    return function()
+    {
+        return method(context);
+    }
+}
+
+Function.createDelegate = function(instance, method)
+{
+    if (!(method instanceof Function))
+            method = object[method];
+            
+    return function()
+    {
+        return method.apply(instance, arguments);
+    }
+}
+
+Function.emptyFunction = Function.emptyMethod = function()
+{
+}
+
+function $(elementID)
+{
+    return document.getElementById(elementID);
+}
+
+

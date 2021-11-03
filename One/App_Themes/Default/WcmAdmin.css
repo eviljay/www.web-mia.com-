@@ -1,0 +1,46 @@
+body {
+}
+
+#admin_page
+{
+}
+
+#admin_page a.image_link
+{
+	text-decoration: none;
+}
+
+#admin_page .admin_edit_link
+{
+	display: inline;
+	cursor: hand;
+	width: 16px;
+	height: 16px;
+	background: url(images/Administration/editgrid.gif) no-repeat;
+}
+
+#admin_page .admin_delete_link
+{
+	display: inline;
+	cursor: hand;
+	width: 16px;
+	height: 16px;
+	background: url(images/Administration/delitem.gif) no-repeat;
+}
+
+#admin_page table.info
+{
+	text-align: left;
+}
+
+#admin_page table.info th
+{
+	padding: 0 0 0 10px;
+	background-color: #7a82c3;
+	color: white;	
+}
+
+#admin_page table.info td
+{
+	padding: 0 0 0 10px;
+}

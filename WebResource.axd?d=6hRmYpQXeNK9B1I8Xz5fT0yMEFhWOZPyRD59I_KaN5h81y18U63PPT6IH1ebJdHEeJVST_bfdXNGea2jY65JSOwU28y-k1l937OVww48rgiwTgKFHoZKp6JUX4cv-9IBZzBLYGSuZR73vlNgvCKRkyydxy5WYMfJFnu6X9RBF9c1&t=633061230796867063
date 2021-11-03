@@ -1,0 +1,63 @@
+function SmiliesToolBar()
+{
+}
+
+SmiliesToolBar.prototype.AttachStoreCaretFunction = function (elementId)
+{
+    var txtarea = $(elementId);
+    if (!txtarea)
+        return;
+
+    var storeCaretHandler = Function.createDelegate(txtarea, SmiliesToolBar.prototype.storeCaret);
+
+    // Attach event handlers
+    // Note: Safari doesn't support cancellation of link clicks added by
+    // addEventListener, so we must add them with "onclick ="
+    if (window.__safari)
+    {
+        txtarea.onselect = storeCaretHandler;
+        txtarea.onclick = storeCaretHandler;
+        txtarea.onkeyup = storeCaretHandler;
+    }
+    else
+    {
+        txtarea.attachEvent("onselect", storeCaretHandler);
+        txtarea.attachEvent("onclick", storeCaretHandler);
+        txtarea.attachEvent("onkeyup", storeCaretHandler);
+    }
+}
+
+SmiliesToolBar.prototype.SetSmileToControl = function (smile, elementId)
+{
+    var txtarea = $(elementId);
+    if (!txtarea)
+        return;
+
+    smile = ' ' + smile + ' ';
+    
+    if (txtarea.createTextRange && txtarea.caretPos)
+    {
+        var caretPos = txtarea.caretPos;
+        caretPos.text = caretPos.text.charAt(caretPos.text.length - 1) == ' ' ? caretPos.text + smile + ' ' : caretPos.text + smile;
+        txtarea.focus();
+    }
+    else
+    {
+        txtarea.value  += smile;
+        txtarea.focus();
+    }
+
+	return;
+}
+
+/**
+* Insert at Claret position. Code from
+* http://www.faqts.com/knowledge_base/view.phtml/aid/1052/fid/130
+*/
+SmiliesToolBar.prototype.storeCaret = function ()
+{
+	if (this.createTextRange)
+	{
+		this.caretPos = document.selection.createRange().duplicate();
+	}
+}

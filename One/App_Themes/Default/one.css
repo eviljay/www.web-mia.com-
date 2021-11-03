@@ -1,0 +1,349 @@
+/*
+pozadi: white   one: white
+pismo: black   one: #black
+odkaz: #cc9900   one: #cc9900
+odkaz v pozadi: black   one: black
+okraj: #7A82C3 one: #6c801d
+*/
+
+body
+{
+	background-color: white;
+	margin: 0;
+}
+
+#one
+{
+	color: #cc9900;
+	background-color: white;
+	font-family: Tahoma;
+	font-size: 10pt;
+}
+
+#one table.layout
+{
+	width: 100%;
+}
+
+#one table.layout td.left
+{
+	width: 10px;
+	background-image: url('images/layout_left.gif');
+}
+
+#one table.layout td.right
+{
+	width: 10px;
+	background-image: url('images/layout_right.gif');
+}
+
+#one #page
+{
+	text-align: center;
+}
+
+#one div#head
+{
+	width: 99%;
+	height: 150px;
+	z-index: 10;
+}
+
+#one #head div.left
+{
+	position: absolute;
+	top: 0;
+	left: 10px;
+	height: 150px;
+	width: 182px;
+	background: white url('images/logo_left.jpg') no-repeat;
+	border-left: solid 1px #6c801d;
+	z-index: 20;
+}
+
+#one #head div.middle
+{
+	position: absolute;
+	top: 0;
+	left: 192px;
+	height: 150px;
+	width: 500px;
+	background: white url('images/logo_right.jpg') no-repeat;
+	z-index: 20;
+}
+
+#one #head div.right
+{
+	position: absolute;
+	top: 0;
+	right: 9px;
+	height: 150px;
+	width: 10px;
+	border-right: solid 1px #6c801d;
+}
+
+#one #top_bar
+{
+	padding: 3px 1px 0px 1px;
+	height: 22px;
+	width: auto;
+	background: #c2e07f url(images/ledge_menu_background.gif) repeat;
+	text-align: center;
+	color: black;
+	border: solid 1px #6c801d;
+}
+
+#one #top_bar a
+{
+	padding-left: 8px;
+	padding-right: 8px;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#one #top_bar img
+{
+	border: none;
+	vertical-align: bottom;
+}
+
+#one #top_bar a:hover
+{
+	color: black;
+	text-decoration: underline;
+}
+
+#one #content
+{
+	padding: 1em 0 1em 0px;
+	/*width: 100%;*/
+	text-align: center;
+	background-color: white;
+	color: black;
+	border: solid 1px #6c801d;
+}
+
+#one #html_content
+{
+	padding: 1em, 0, 1em, 0;
+}
+
+#one #html_content,
+#one #content .bg_image
+{
+	color: black;
+	background-color: #fbffec;
+}
+
+#one #content a
+{
+	color: #cc9900;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#one #content a:hover
+{
+	color: #cc9900;
+	text-decoration: underline;
+}
+
+#one #content a.inactive_link,
+#one #content a:hover.inactive_link
+{
+	color: gray;
+}
+
+#one #html_content a,
+#one #content .bg_image a
+{
+	color: #cc9900;
+	font-weight: normal;
+	text-align: left;
+	line-height: 25px;
+}
+
+#one #content a.img_href,
+#one #content a:hover.img_href
+{
+	text-decoration: none;
+}
+
+#one #content .page_title
+{
+	color: black;
+	padding: 0.5em 0 1em 0;
+	font-weight: bold;
+}
+
+#one #content .padding_top_bottom
+{
+	padding: 0em 0 1em 0;
+}
+
+#one #content .padding_mainpage
+{
+	padding: 0em 4em 0em 4em;
+}
+
+#one #content .padding_mainpage_left
+{
+	padding: 1em 4em 1em 4em;
+	text-align: left;
+}
+
+#one #content .bordered_content
+{
+	border: solid 1px #6c801d;
+}
+
+#one #footer
+{
+	width: 100%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	text-align: center;
+	font-size: 8pt;
+}
+
+
+#one .hidden_href,
+#one #footer A.hidden_href,
+#one #footer A:hover.hidden_href
+{
+	color: black;
+	text-decoration: none;
+	cursor: text;
+}
+
+#one .page_edit_console
+{
+	padding: 3px 1px 0px 1px;
+	height: 21px;
+	width: auto;
+	background: #c2e07f url(images/ledge_menu_background.gif) repeat;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	border: solid 1px #6c801d;
+	border-top: none;
+}
+
+#one .page_edit_console a
+{
+	padding-left: 8px;
+	padding-right: 8px;
+	color: yellow;
+	text-decoration: none;
+}
+
+#one .page_edit_console a:hover
+{
+	color: yellow;
+	text-decoration: underline;
+}
+
+#one .top_bar_inv
+{
+	background: #c2e07f url(images/ledge_menu_background_inv.gif) repeat;
+}
+
+#one #top_bar .flag
+{
+	height: 16px;
+	vertical-align: middle;
+}
+
+#one #content hr
+{
+	color: #6c801d;
+	height: 1px;
+}
+
+#one #content table.main
+{
+	border: solid 1px #6c801d;
+}
+
+#one #content table.WebPart
+{
+	margin: 3px 3px 3px 3px;
+	border: solid 1px #6c801d;
+}
+
+#one #content table th
+{
+	height: 25px;
+	background: #c2e07f url(images/th_part_grad.gif) repeat;
+	color: black;
+}
+
+#one #content .site_map
+{
+	display: inline;
+}
+
+#one #content .site_map a
+{
+	line-height: 20px;
+	padding: 0 4px 0 4px;
+	color: black;
+	text-decoration: none;
+}
+
+#one #content .site_map a:hover
+{
+	color: black;
+	text-decoration: underline;
+}
+
+#one #content .page_padding_map
+{
+	padding-bottom: 4px;
+	padding-top: 4px;
+}
+
+#one #content .page_padding_map .selected
+{
+	padding: 0 4px 0 4px;
+	font-weight: bold;
+	color: black;
+}
+
+#one #content .page_padding_map a
+{
+	font-weight: bold;
+	padding: 0 4px 0 4px;
+	color: black;
+	text-decoration: none;
+}
+
+#one #content .page_padding_map a:hover
+{
+	color: black;
+	text-decoration: underline;
+}
+
+#one #content h1
+{
+	
+	color: #cc9900;
+	font-size: 10pt;
+}
+
+#one #content h2
+{
+	color: #6c801d;
+	font-size: 10pt;
+}
+
+#one #content .webpart_container
+{
+	border: solid 10px black;
+}
+
+#one #content .img_with_out_border
+{
+	border: none;
+}

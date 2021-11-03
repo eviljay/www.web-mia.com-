@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>One - guestbook</title>
+    <description>One - Guestbook</description>
+    <language>en-US</language>
+    <category>Guestbook</category>
+    <copyright>Copyright 2006, One</copyright>
+    <managingEditor>one.band@seznam.cz (One)</managingEditor>
+    <webMaster>one.band@seznam.cz (One)</webMaster>
+    <generator>Sandster GuestBookRssFeedProvider</generator>
+    <pubDate>Sun, 04 Mar 2007 23:05:37 GMT</pubDate>
+    <link>http://web-mia.com/One/Guestbook.aspx</link>
+    <ttl>60</ttl>
+    <docs>http://backend.userland.com/rss2/</docs>
+    <image>
+      <url>http://web-mia.com/One/App_Themes/Default/Images/logo_rss.gif</url>
+      <link>http://web-mia.com/One/Guestbook.aspx</link>
+      <title>One - Guestbook</title>
+      <description>Guestbook</description>
+    </image>
+    <item>
+      <title>New message from Tomas (Sunday, March 04, 2007 10:29 PM)</title>
+      <description>Wrote: Tomas&lt;br /&gt;Date: Sunday, March 04, 2007 10:29 PM&lt;br /&gt;Tak jsem samozrejme nevynechal dalsi koncert ONE. Opet v klubu xtB a opet to bylo dobry :) Skoda malych problemu s ozvucenim...
+Diky za texty hodne Zdaru Cau!</description>
+      <pubDate>Sun, 04 Mar 2007 22:29:12 GMT</pubDate>
+      <link>http://web-mia.com/One/Guestbook.aspx</link>
+    </item>
+    <item>
+      <title>New message from Marek (Friday, March 02, 2007 2:33 PM)</title>
+      <description>Wrote: Marek&lt;br /&gt;Date: Friday, March 02, 2007 2:33 PM&lt;br /&gt;Jo, je to tak nejsme tam napsan&amp;#253;, ale budeme tam skutečně hr&amp;#225;t. Dnes v p&amp;#225; 2.3. od 19:00 hod. </description>
+      <pubDate>Fri, 02 Mar 2007 14:33:13 GMT</pubDate>
+      <link>http://web-mia.com/One/Guestbook.aspx</link>
+    </item>
+    <item>
+      <title>New message from Dada (Thursday, March 01, 2007 6:03 PM)</title>
+      <description>Wrote: Dada&lt;br /&gt;Date: Thursday, March 01, 2007 6:03 PM&lt;br /&gt;Ahoj, chci se zeptat jak to bude z&amp;#237;tra  v tom XT3?? Jelikož nejste nikde napsan&amp;#253;, že tam hrajete.</description>
+      <pubDate>Thu, 01 Mar 2007 18:03:31 GMT</pubDate>
+      <link>http://web-mia.com/One/Guestbook.aspx</link>
+    </item>
+    <item>
+      <title>New message from  :o) (Thursday, February 01, 2007 3:12 PM)</title>
+      <description>Wrote:  :o)&lt;br /&gt;Date: Thursday, February 01, 2007 3:12 PM&lt;br /&gt;Ahoj ONE , jste fakt super. Přeju aby se v&amp;#225;m dařilo :o)
+Hodně štěst&amp;#237; !!!!!!!!!!!! Těš&amp;#237;m se na dalš&amp;#237; p&amp;#237;sničky ;o)</description>
+      <pubDate>Thu, 01 Feb 2007 15:12:13 GMT</pubDate>
+      <link>http://web-mia.com/One/Guestbook.aspx</link>
+    </item>
+    <item>
+      <title>New message from Sestra (Wednesday, January 31, 2007 9:09 PM)</title>
+      <description>Wrote: Sestra&lt;br /&gt;Date: Wednesday, January 31, 2007 9:09 PM&lt;br /&gt;M&amp;#225;m &amp;#250;žasn&amp;#233;ho bratra!(a někdo si tu děl&amp;#225; reklamu...tady m&amp;#225;m klienty na focen&amp;#237; j&amp;#225;!)</description>
+      <pubDate>Wed, 31 Jan 2007 21:09:03 GMT</pubDate>
+      <link>http://web-mia.com/One/Guestbook.aspx</link>
+    </item>
+    <item>
+      <title>New message from Nike A.D. Depart. (Wednesday, January 31, 2007 6:23 PM)</title>
+      <description>Wrote: Nike A.D. Depart.&lt;br /&gt;Date: Wednesday, January 31, 2007 6:23 PM&lt;br /&gt;Dear Paul Little Masrshall, we need you to present our new outdoor collection. If you are interested, contact us.
+Thanks</description>
+      <pubDate>Wed, 31 Jan 2007 18:23:05 GMT</pubDate>
+      <link>http://web-mia.com/One/Guestbook.aspx</link>
+    </item>
+    <item>
+      <title>New message from Bratr (Wednesday, January 31, 2007 6:13 PM)</title>
+      <description>Wrote: Bratr&lt;br /&gt;Date: Wednesday, January 31, 2007 6:13 PM&lt;br /&gt;M&amp;#225;m &amp;#250;žasnou sestru!</description>
+      <pubDate>Wed, 31 Jan 2007 18:13:27 GMT</pubDate>
+      <link>http://web-mia.com/One/Guestbook.aspx</link>
+    </item>
+    <item>
+      <title>New message from Mluvč&amp;#237; Textili&amp;#237; Versace (Wednesday, January 31, 2007 4:28 PM)</title>
+      <description>Wrote: Mluvč&amp;#237; Textili&amp;#237; Versace&lt;br /&gt;Date: Wednesday, January 31, 2007 4:28 PM&lt;br /&gt;Chceme Vašeho K&amp;#225;ves&amp;#225;ka a baskytaristu jako modely. Kontaktujte n&amp;#225;s skrz oddělen&amp;#237; &amp;quot;Versace Advertisment&amp;quot;</description>
+      <pubDate>Wed, 31 Jan 2007 16:28:09 GMT</pubDate>
+      <link>http://web-mia.com/One/Guestbook.aspx</link>
+    </item>
+    <item>
+      <title>New message from Baresek (Wednesday, January 31, 2007 12:49 PM)</title>
+      <description>Wrote: Baresek&lt;br /&gt;Date: Wednesday, January 31, 2007 12:49 PM&lt;br /&gt;no tak j&amp;#225; v&amp;#225;m teda filipa nech&amp;#225;v&amp;#225;m...už ho nemiluju...filipe prmiň</description>
+      <pubDate>Wed, 31 Jan 2007 12:49:49 GMT</pubDate>
+      <link>http://web-mia.com/One/Guestbook.aspx</link>
+    </item>
+    <item>
+      <title>New message from Zipp Knofl&amp;#237;k (Tuesday, January 30, 2007 4:26 PM)</title>
+      <description>Wrote: Zipp Knofl&amp;#237;k&lt;br /&gt;Date: Tuesday, January 30, 2007 4:26 PM&lt;br /&gt;Miluji mluvč&amp;#237; textiln&amp;#237;ho oděvnictv&amp;#237; &amp;quot;KITU&amp;quot;</description>
+      <pubDate>Tue, 30 Jan 2007 16:26:33 GMT</pubDate>
+      <link>http://web-mia.com/One/Guestbook.aspx</link>
+    </item>
+  </channel>
+</rss>

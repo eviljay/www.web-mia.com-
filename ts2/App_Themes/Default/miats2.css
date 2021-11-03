@@ -1,0 +1,455 @@
+body
+{
+    background: white url(images/bkgimg.jpg) repeat;
+    margin: 0;
+    padding: 0;
+}
+
+#aspnetForm
+{
+    margin: 0;
+    padding: 0;
+}
+
+#miats2
+{
+    color: black;
+    background-color: white;
+    font-family: Tahoma, Verdana, Arial;
+    font-size: 0.8em;
+}
+
+#layer1
+{
+    background: url('images/layout_right.gif') repeat-y top right;
+    padding: 0 10px 0 0;
+}
+
+#layer2
+{
+    background: url('images/layout_left.gif') repeat-y top left;
+    padding: 0 0 0 10px;
+}
+
+#miats2 #page
+{
+    text-align: center;
+}
+
+#miats2 div#head
+{
+    height: 125px;
+    background: #ced1f2 url('images/logo_bkg.jpg') repeat;
+    border: solid 1px #585c9c;
+    border-bottom: none;
+}
+
+#miats2 #logo
+{
+    height: 125px;
+    background: url('images/logo.jpg') no-repeat top center;
+}
+
+#miats2 #top_bar
+{
+    padding: 0.3em 0 0.3em 0;
+    background: #4e528b url(images/ledge_menu_background.gif) repeat-x top left;
+    text-align: center;
+    color: black;
+    border: solid 1px #585c9c;
+    font-weight: normal;
+    font-size: 0.9em;
+}
+
+#miats2 #top_bar a
+{
+    padding-left: 4px;
+    padding-right: 4px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#miats2 #top_bar a:hover
+{
+    text-decoration: underline;
+    color: #d9ddff;
+}
+
+#miats2 #top_bar h1
+{
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}
+
+#miats2 #top_bar img
+{
+    border: none;
+    vertical-align: bottom;
+}
+
+#miats2 #content
+{
+    padding: 1em 0 1em 0;
+    text-align: center;
+    background-color: white;
+    color: #585C9C;
+    border: solid 1px #7A82C3;
+}
+
+#miats2 #html_content
+{
+    padding: 1em, 0, 1em, 0;
+}
+
+#miats2 #html_content, #miats2 #content .bg_image
+{
+    color: black;
+    background-color: white;
+    background: #CFCFE5;
+}
+
+#miats2 #content a
+{
+    color: #585C9C;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#miats2 #content a:hover
+{
+    color: #585C9C;
+    text-decoration: underline;
+}
+
+#miats2 #content a.external
+{
+    background: url(Images/external-link.gif) no-repeat center right;
+    padding-right: 15px;
+}
+
+#miats2 #content a.inactive_link, #miats2 #content a:hover.inactive_link
+{
+    color: gray;
+}
+
+#miats2 #html_content a, #miats2 #content .bg_image a
+{
+    color: #585C9C;
+    font-weight: normal;
+    text-align: left;
+    line-height: 25px;
+}
+
+#miats2 #content a.img_href, #miats2 #content a:hover.img_href
+{
+    text-decoration: none;
+}
+
+#miats2 .img_news
+{
+    border: #7A82C3 1px solid;
+}
+
+#miats2 #content .page_title
+{
+    color: black;
+    padding: 0.5em 0 1em 0;
+    font-weight: bold;
+}
+
+#miats2 #content .padding_top_bottom
+{
+    padding: 0em 0 1em 0;
+}
+
+#miats2 #content .padding_mainpage
+{
+    padding: 0 3em 0 3em;
+}
+
+#miats2 #content .padding_mainpage_left
+{
+    padding: 1em 2em 1em 2em;
+    text-align: left;
+}
+
+#miats2 #content .bordered_content
+{
+    border: solid 1px #7A82C3;
+}
+
+#miats2 #footer
+{
+    width: 100%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    text-align: center;
+    font-size: 8pt;
+    border-top: solid 1px #7a82c3;
+    border-bottom: solid 1px #7a82c3;
+    background-color: #cfcfe5;
+}
+
+
+#miats2 .hidden_href, #miats2 #footer A:hover.hidden_href
+{
+    color: #585c9c;
+    text-decoration: none;
+    cursor: text;
+}
+
+#miats2 .page_edit_console
+{
+    padding: 3px 1px 0px 1px;
+    height: 1.6em;
+    background: #4e528b url(images/ledge_menu_background.gif) repeat-x;
+    text-align: center;
+    color: #cfcfe5;
+    font-weight: bold;
+}
+
+#miats2 .page_edit_console a
+{
+    padding-left: 8px;
+    padding-right: 8px;
+    color: yellow;
+    text-decoration: none;
+}
+
+#miats2 .page_edit_console a:hover
+{
+    color: yellow;
+    text-decoration: underline;
+}
+
+#miats2 .person_console, #miats2 .person_console a, #miats2 .person_console a:hover
+{
+    color: lime;
+}
+
+#miats2 .top_bar_inv
+{
+    background: #4e528b;
+}
+
+#miats2 #top_bar .flag
+{
+    height: 16px;
+    vertical-align: middle;
+}
+
+#miats2 #content hr
+{
+    height: 0;
+    border: none;
+    margin: 1em;
+    border-top: solid 1px #7a82c3;
+}
+
+#miats2 #content table.main
+{
+    border: solid 1px #7A82C3;
+}
+
+#miats2 #content table.WebPart
+{
+    margin: 3px;
+    border: solid 1px #7A82C3;
+}
+
+#miats2 #content table th
+{
+    height: 1.8em;
+    color: black;
+    background: #d0d4f3 url(Images/webpart_title_background.gif) repeat-x top left;
+    border-bottom: solid 1px #7a82c3;
+}
+
+#miats2 #content .houses_and_lots_image
+{
+    padding: 2em;
+}
+
+#miats2 #content .houses_and_lots_content
+{
+    text-align: left;
+    padding: 2em;
+}
+
+#miats2 #content .ts2_downloads_menu ul
+{
+    white-space: nowrap;
+    list-style-type: none;
+    margin: 0 0 0 0.5em;
+    padding: 0;
+}
+
+#miats2 #content .ts2_downloads_menu ul.sub
+{
+    list-style-type: none;
+    margin: 0 0 1em 0;
+    padding: 0 0 0 1em;
+}
+
+#miats2 #content .ts2_downloads_menu ul.sub a
+{
+    font-weight: normal;
+}
+
+#miats2 #content .site_map
+{
+    display: inline;
+    color: black;
+}
+
+#miats2 #content .site_map a
+{
+    line-height: 2em;
+    padding: 0 4px 0 4px;
+    color: #585c9c;
+    text-decoration: none;
+}
+
+#miats2 #content .site_map a:hover
+{
+    color: #585c9c;
+    text-decoration: underline;
+}
+
+#miats2 #content .page_padding_map
+{
+    padding-bottom: 0.4em;
+    padding-top: 0.3em;
+    font-size: 1.1em;
+}
+
+#miats2 #content .page_padding_map .selected
+{
+    padding: 0 4px 0 4px;
+    font-weight: bold;
+    color: black;
+    border: dotted 1px black;
+}
+
+#miats2 #content .page_padding_map a
+{
+    font-weight: bold;
+    padding: 0 4px 0 4px;
+    color: #7a82c3;
+    text-decoration: none;
+    border: solid 1px white;
+}
+
+#miats2 #content .page_padding_map a:hover
+{
+    color: #7a82c3;
+    border: dotted 1px #7a82c3;
+    text-decoration: none;
+}
+
+#miats2 #content h1
+{
+    color: #585C9C;
+    font-size: 1.4em;
+    margin: 1em 0 1em 0;
+}
+
+#miats2 #content h2
+{
+    color: #585C9C;
+    font-size: 1.2em;
+}
+
+#miats2 #content h3
+{
+    color: #7a82c3;
+    font-size: 1em;
+}
+
+#miats2 #content .webpart_container
+{
+    border: solid 10px #CFCFE5;
+}
+#miats2 #content .tutorial_tip
+{
+    color: #585C9C;
+    border: dashed 1px #7a82c3;
+    padding: 1em;
+    background-color: #e5e5ff;
+}
+#miats2 #content .email_sender_wrapper
+{
+    width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 2em;
+    border: solid 1px #7A82C3;
+}
+.email_sender_text
+{
+    text-align: left;
+    padding: 1em 10em 1em 10em;
+    margin: 0;
+}
+.email_sender
+{
+    color: #585c9c;
+    font-weight: bold;
+}
+.email_sender .textbox
+{
+    width: 300px;
+}
+.email_sender input, .email_sender .textbox
+{
+    background-color: #ffffff;
+    border: 1px solid #585c9c;
+}
+.email_sender .captcha_image, .email_sender .captcha_image_label, .email_sender .captcha_image, .email_sender .button_bar
+{
+    text-align: center;
+}
+#miats2 #content .email_sender table th
+{
+    background: none;
+    border: none;
+    padding: 2em 0 2em 0;
+    font-weight: bold;
+    padding-right: 8px;
+    color: #585c9c;
+    text-align: right;
+}
+#miats2 #content .table_tutorials
+{
+    border: none;
+    width: 100%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+#miats2 #content .table_tutorials td
+{
+    border: solid 1px #7a82c3;
+    padding: 3em;
+    width: 50%;
+    background-color: white;
+}
+#miats2 #content .table_cheats
+{
+    border-collapse: collapse;
+}
+#miats2 #content .table_cheats td
+{
+    border: solid 1px #7a82c3;
+    padding: 0.8em;
+    background-color: white;
+}
+#miats2 #content .table_cheats th
+{
+    padding: 0.8em;
+    border: solid 1px #7a82c3;
+    color: #585c9c;
+    text-align: left;
+}

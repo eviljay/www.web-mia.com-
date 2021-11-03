@@ -1,0 +1,55 @@
+table .WebPartZone
+{
+	display: inline;
+}
+
+.WebPartZone .WebPartTitle
+{
+	height: 25px;
+	color: black;
+	font-weight: bold;
+	padding: 0.2em 10px 0 0.2em;
+	background: #d0d4f3 url(Images/webpart_title_background.gif) repeat-x top left;
+	border-bottom: solid 1px #7a82c3;
+}
+
+.CatalogZone .ZoneHeader,
+.EditorZone .ZoneHeader
+{
+	color: #cfcfe5;
+	background: url(Images/webpart_title_background.gif) repeat;
+}
+
+.EditorZone .WebPart
+{
+	color: Black;
+	background-color: #e6e6fa;
+}
+
+.EditorZone .WebPartTitle,
+.CatalogZone .WebPartTitle
+{
+	color: #cfcfe5;
+	background: url(Images/webpart_title_background.gif) repeat;
+}
+
+#miats2 #content .webpart_container .PartChromeStyle
+{
+	border: solid 1px #7A82C3;
+	background-color: white;
+}
+
+#miats2 #content div.webpart_main
+{
+	border: solid 1px #7A82C3;
+	background-color: #CFCFE5;
+}
+
+#miats2 #content div.webpart_main hr
+{
+}
+
+#miats2 #content .webpart_main_margin
+{
+	margin: 0 4px 0 4px;
+}

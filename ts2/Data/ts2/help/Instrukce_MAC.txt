@@ -1,0 +1,54 @@
+ÚVODNÍ POZNÁMKA
+===============
+Pokud máte Sims 2 nainstalované na hlavním výchozím disku, pøeskoète tento odstavec a pokraèujte na instalaci uvedenou níže.
+Avšak pokud máte Sims 2 nainstalované ve vlastním umístìní, budete muset odstranit Sims 2 ve vašem vlastním umístìní a také Sims 2 ve výchozí složce EA Games a posléze pøeinstalovat hru do výchozího umístìní na hlavní disk (nezapomeòte si zazálohovat všechny zmìnìné soubory a složky jako jsou sousedství-neighborhoods nebo downloady-downloads, také kolekce-collections, fotky-storytelling a uložené hry-saved sims). Pøed reinstalací nezapomeòte smazat seznamy v nastavení, které jsou v knihovnì domovské složky. Po reinstalaci, ještì pøed tím, než budete cokoliv dìlat, spuse hru. Zavøete ji. Pak nahraïte stávající Sims 2 složky tìmi, které jste si zazálohovali pøed instalací. Spuste hru a opìt ji zavøete. Nyní jste pøipraveni umístit soubory CEP.
+
+Pokud již máte Sims 2 nainstalovány na hlavním disku, pokraèujte dle následujících instrukcí.
+
+
+
+INSTALACE
+=========
+
+V ZIP archivu jsou kromì textových instrukcí také dva *.package soubory:
+
+1) _EnableColorOptionsGMND.package:
+Ve vašem domovském umístìní (složka s malým domeèkem v Users-Uživatelé) jdìte do Documents -> EA Games -> Sims 2 -> Downloads (pokud tato složka neexistuje, vytvoøte novou a pojmenujte ji Downloads).
+Umístìte soubor "_EnableColorOptionsGMND.package" do této složky (pøepište stávající starší soubor, pokud tam již nìjaký máte).
+
+2) _EnableColorOptionsMMAT.package
+Na hlavním disku jdìte do složky The Sims 2 -> TSData -> Res -> Sims3D.
+Umístìte soubor "_EnableColorOptionsMMAT.package" do této složky.
+
+POZNÁMKA1: bez ohledu na herní uspoøádání (t.j. datadisky, které máte nainstalovány) je umístìní pro soubor MMAT vždy ve výše uvedeném.
+POZNÁMKA2: název složky "The Sims 2" se mùže lišit v závislosti na jazyku, v nìmž máte hru nainstalovanou.
+
+
+
+
+VOLITELNÁ PODPORA PRO CUSTOM LIGHTS - zvláštní osvìtlení
+========================================================
+
+Podpora pro zvláštní osvìtlení již není poskytována spolu s CEP.
+Pro více informací a podpoøe použijte SCRIPTORIUM (http://www.modthesims2.com/showthread.php?t=192613)
+
+
+
+
+MANUÁLNÍ ODINSTALACE CEP
+========================
+Smažte oba soubory _EnableColorOptionsMMAT.package a _EnableColorOptionsGMND.package z adresáøù, do nichž jste je zkopírovali dle návodu k instalaci.
+
+
+
+=================================================================
+Také mùžete zhlédnout ofciální stránku CEP na: cep.modthesims2.com
+ohlednì aktualizací, dotazù, podpory a èehokoli týkající se CEP.
+
+Pokud jste s užíváním CEP spokojeni, prosím zauvažujte o doborovolném pøíspìvku,
+navštivte www.numenor-moddings.com
+=================================================================
+
+Hodnì zábavy!
+
+  --  Numenor
